@@ -1,11 +1,10 @@
 Module.register("MMM-dribbble", {
 	defaults: {
-		api: {
-			base: "https://api.dribbble.com/v1",
-			clientAccessToken: null,
-			endpoint: "shots",
-			perPage: 24,
-		},
+		base: "https://api.dribbble.com/v1",
+		clientAccessToken: null,
+		endpoint: "shots",
+		perPage: 24,
+
 		animationSpeed: 1000,
 		initialLoadDelay: 1000 * 2.5,
 		updateInterval: 1000 * 60 * 10,
@@ -45,8 +44,8 @@ Module.register("MMM-dribbble", {
 
 	getShots: function() {
 		return new Promise((resolve, reject) => {
-			const { api } = this.config;
-			const url = `${api.base}/${api.endpoint}?access_token=${api.clientAccessToken}&per_page=${api.perPage}`;
+			const { base, clientAccessToken, endpoint, perPage } = this.config;
+			const url = `${base}/${endpoint}?access_token=${clientAccessToken}&per_page=${perPage}`;
 
 			fetch(url)
 				.then(response => response.json())
