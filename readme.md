@@ -1,5 +1,11 @@
 # MagicMirror² Module: MMM-dribbble
 
+## Table of contents
+
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [dribbble API](#dribbble-api)
+
 ## Installation
 
 1. Download `MMM-dribbble` module
