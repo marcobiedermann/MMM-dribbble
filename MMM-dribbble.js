@@ -20,6 +20,26 @@ Module.register("MMM-dribbble", {
 	getDom: function() {
 		const wrapper = document.createElement("div");
 
+		if (!this.loaded) {
+			return wrapper;
+		}
+
+		const html = `
+      <ul class="shots">
+        ${this.shots.map(shot => `
+          <li>
+            <div class="shot">
+              <figure class="shot__figure">
+                <img src="${shot.images.teaser}" class="shot__image">
+              </figure>
+            </div>
+          </li>
+        `).join("")}
+      </ul>
+    `;
+
+		wrapper.insertAdjacentHTML("afterbegin", html);
+
 		return wrapper;
 	},
 
