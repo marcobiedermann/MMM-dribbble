@@ -5,7 +5,7 @@ Module.register("MMM-dribbble", {
 
 	getStyles: function() {
 		return [
-			"MMM-dribbble.css",
+
 		];
 	},
 

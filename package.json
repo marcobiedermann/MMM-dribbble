@@ -4,8 +4,9 @@
   "description": "",
   "main": "MMM-dribbble.js",
   "scripts": {
+    "lint:css": "stylelint **/*.css",
     "lint:js": "eslint **/*.js",
-    "lint": "npm run lint:js",
+    "lint": "npm run lint:css && npm run lint:js",
     "test": "npm run lint"
   },
   "repository": {
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/marcobiedermann/MMM-dribbble#readme",
   "devDependencies": {
-    "eslint": "^4.10.0"
+    "eslint": "^4.10.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0"
   }
 }
