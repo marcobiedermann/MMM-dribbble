@@ -1,6 +1,6 @@
 Module.register("MMM-dribbble", {
 	defaults: {
-		
+
 	},
 
 	getStyles: function() {

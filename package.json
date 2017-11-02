@@ -4,7 +4,9 @@
   "description": "",
   "main": "MMM-dribbble.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:js": "eslint **/*.js",
+    "lint": "npm run lint:js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/marcobiedermann/MMM-dribbble/issues"
   },
-  "homepage": "https://github.com/marcobiedermann/MMM-dribbble#readme"
+  "homepage": "https://github.com/marcobiedermann/MMM-dribbble#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  }
 }
