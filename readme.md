@@ -44,3 +44,17 @@ animationSpeed: 1000,
 initialLoadDelay: 1000 * 2.5,
 updateInterval: 1000 * 60 * 10,
 ```
+
+## dribbble API
+
+1. Head over to the [dribbble developer API](http://developer.dribbble.com/) and register an application.
+
+![dribbble Developer API](media/01-developer.dribbble.com.png)
+
+2. Create a new dribbble application. You can put in any information you like to.
+
+![create dribbble new application](media/02-dribbble.com_account_applications_new.png)
+
+3. Copy your **Client Access Token**.
+
+![dribbble application information](media/03-dribbble.com_account_applications.png)
