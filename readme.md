@@ -26,12 +26,12 @@ Key | Description | Default | Type
 --- | --- | --- | ---
 api | dribbble API options | {} | Object
 api.base | dribbble API base url | https://api.dribbble.com/v1 | String
-api.clientAccessToken: dribbble API client access token | null | String
+api.clientAccessToken | dribbble API client access token | null | String
 api.endpoint | dribbble API shots endpoint | shots | String
 api.perPage | shots to show | 24 | Integer (min: 0, max: 100)
-animationSpeed: Animation speed to show content (in ms) | 1 s | Integer
-initialLoadDelay: Delay until shots are initially fetched (in ms) | 2.5 s | Integer
-updateInterval: Interval in which shots are updated (in ms) | 10 min | Integer
+animationSpeed | Animation speed to show content (in ms) | 1 s | Integer
+initialLoadDelay | Delay until shots are initially fetched (in ms) | 2.5 s | Integer
+updateInterval | Interval in which shots are updated (in ms) | 10 min | Integer
 
 ```js
 api: {
