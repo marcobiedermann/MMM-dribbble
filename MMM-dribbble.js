@@ -8,7 +8,7 @@ Module.register("MMM-dribbble", {
 		},
 		animationSpeed: 1000,
 		initialLoadDelay: 1000 * 2.5,
-		updateInterval: 1000 * 60 * 10
+		updateInterval: 1000 * 60 * 10,
 	},
 
 	getStyles: function() {
@@ -58,7 +58,7 @@ Module.register("MMM-dribbble", {
 	update: function() {
 		this.getShots().then(shots => {
 			this.shots = shots;
-			this.show(this.config.animationSpeed, { lockString: this.identifier} );
+			this.show(this.config.animationSpeed, { lockString: this.identifier } );
 			this.loaded = true;
 			this.updateDom(this.config.animationSpeed);
 		});
