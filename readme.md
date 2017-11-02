@@ -9,17 +9,13 @@
 `MagicMirror/config/config.js`
 
 ```js
-…
 modules: [
-	…
 	{
 		module: "MMM-dribbble",
 		position: "lower_third",
 		config: {
-			…
+
 		}
 	},
-	…
-]
-…
+],
 ```
