@@ -5,6 +5,7 @@
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [dribbble API](#dribbble-api)
+* [License](#license)
 
 ## Installation
 
@@ -61,3 +62,9 @@ updateInterval: 1000 * 60 * 10,
 3. Copy your **Client Access Token**.
 
 ![dribbble application information](media/03-dribbble.com_account_applications.png)
+
+## License
+
+[MIT License](LICENSE)
+
+Copyright (c) 2017 Marco Biedermann

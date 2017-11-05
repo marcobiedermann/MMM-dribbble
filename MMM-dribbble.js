@@ -55,12 +55,14 @@ Module.register("MMM-dribbble", {
 	},
 
 	update: function() {
-		this.getShots().then(shots => {
-			this.shots = shots;
-			this.show(this.config.animationSpeed, { lockString: this.identifier } );
-			this.loaded = true;
-			this.updateDom(this.config.animationSpeed);
-		});
+		this.getShots()
+			.then(shots => {
+				this.shots = shots;
+				this.show(this.config.animationSpeed, { lockString: this.identifier } );
+				this.loaded = true;
+				this.updateDom(this.config.animationSpeed);
+			})
+			.catch(error => Log.error(error));
 	},
 
 	scheduleUpdate: function(delay) {
