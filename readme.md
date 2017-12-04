@@ -1,5 +1,9 @@
 # MagicMirror² Module: MMM-dribbble
 
+Dribbble - Show and tell for designers.
+
+![MMM-dribbble](media/MMM-dribbble.png)
+
 ## Table of contents
 
 * [Installation](#installation)
