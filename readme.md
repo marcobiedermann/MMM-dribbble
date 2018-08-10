@@ -1,5 +1,7 @@
 # MagicMirror² Module: MMM-dribbble
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/MMM-dribbble.svg)](https://greenkeeper.io/)
+
 Dribbble - Show and tell for designers.
 
 ![MMM-dribbble](media/MMM-dribbble.png)
